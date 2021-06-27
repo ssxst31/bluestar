@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-image: url(good.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  margin: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-family: "Cafe24Ssurround";
+}
+
+.header_logo i,
+a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.header_memu ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+}
+
+.header_memu ul li {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-family: "Cafe24Ssurround";
+}
+
+.header_memu ul li :hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.header_memu ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+.header_icons .instagram a {
+  background-image: url(./instagram.png);
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  display: inline-block;
+}
+.header_icons .instagram a:hover {
+  background-color: white;
+  border-radius: 8px;
+}
+.header_icons .facebook a {
+  background-image: url(./facebook.png);
+  width: 24px;
+  height: 24px;
+  background-size: 24px;
+  display: inline-block;
+}
+
+.header_icons .facebook a:hover {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.header_icons a :hover {
+  background-color: white;
+  transition: all 0.4s;
+}
+
+.header_icons ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+.header_icons ul li {
+  margin: 10px;
+}
+.container img {
+  width: 230px;
+  height: 230px;
+}
+.up {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+.up img {
+  border-radius: 5%;
+}
+.down {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.down img {
+  border-radius: 5%;
+}
+@media (max-width: 730px) {
+  .qwe {
+    display: block;
+    text-align: center;
+  }
+}
