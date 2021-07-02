@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  background-image: url(사진/good.png);
+  background-image: url(good.png);
   background-size: cover;
   background-repeat: repeat;
   height: 100vh;
@@ -73,7 +73,7 @@ a {
 }
 
 .header .header_icons .instagram a {
-  background-image: url(사진/instagram.png);
+  background-image: url(instagram.png);
   border-radius: 7px;
 }
 
@@ -83,7 +83,7 @@ a {
 }
 
 .header_icons .facebook a {
-  background-image: url(사진/facebook.png);
+  background-image: url(facebook.png);
   border-radius: 3px;
 }
 
