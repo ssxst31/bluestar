@@ -34,7 +34,7 @@
 }
 
 .container .photo .jeju_1 {
-  background-image: url(사진/음식1.jpeg);
+  background-image: url(food1.jpeg);
 }
 
 .container .photo .jeju_1 :hover {
@@ -43,7 +43,7 @@
 }
 
 .container .photo .jeju_2 {
-  background-image: url(사진/음식2.jpeg);
+  background-image: url(food2.jpeg);
 }
 
 .container .photo .jeju_2 :hover {
@@ -52,7 +52,7 @@
 }
 
 .container .photo .jeju_3 {
-  background-image: url(사진/음식3.jpeg);
+  background-image: url(food3.jpeg);
 }
 
 .container .photo .jeju_3 :hover {
