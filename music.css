@@ -1,0 +1,74 @@
+body {
+  overflow-y: hidden;
+}
+
+.container {
+  margin: 50px 50px 0 70px;
+}
+
+.container .music {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 10rem;
+  padding-bottom: 30px;
+}
+
+.container .music img {
+  width: 90px;
+  height: 90px;
+  margin-right: 5rem;
+}
+
+.container .music .profile {
+  display: flex;
+}
+
+.container .music .file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.play_btn {
+  margin: auto 0;
+}
+
+.file {
+  font-family: "Cafe24Ssurround";
+  font-size: 20px;
+}
+
+.next {
+  font-size: 45px;
+  position: relative;
+  left: 95%;
+  bottom: 49%;
+}
+
+.before {
+  font-size: 45px;
+  position: relative;
+  bottom: 49%;
+  left: -2%;
+}
+
+.next :hover {
+  transform: translateX(10px);
+  transition: all 0.4s;
+}
+
+.before :hover {
+  transform: translateX(-10px);
+  transition: all 0.4s;
+}
+
+@media (max-width: 600px) {
+  .profile {
+    flex-direction: column;
+  }
+  .play_btn {
+    position: relative;
+    bottom: 30px;
+  }
+}

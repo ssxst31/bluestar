@@ -1,0 +1,73 @@
+.container .main {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+  color: aliceblue;
+  font-family: "Cafe24Ssurround";
+}
+.container .main img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.container .photo .jeju {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.container .photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.container .photo .jeju_1,
+.container .photo .jeju_2,
+.container .photo .jeju_3 {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container .photo .jeju_1 {
+  background-image: url(사진/음식1.jpeg);
+}
+
+.container .photo .jeju_1 :hover {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.container .photo .jeju_2 {
+  background-image: url(사진/음식2.jpeg);
+}
+
+.container .photo .jeju_2 :hover {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.container .photo .jeju_3 {
+  background-image: url(사진/음식3.jpeg);
+}
+
+.container .photo .jeju_3 :hover {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.before {
+  font-size: 45px;
+  position: relative;
+  bottom: 37%;
+  left: 2%;
+}
+
+.before :hover {
+  transform: translateX(-10px);
+  transition: all 0.4s;
+}
