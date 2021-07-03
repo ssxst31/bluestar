@@ -1,6 +1,7 @@
 .container {
   margin-top: 70px;
 }
+
 .container img {
   width: 220px;
   height: 220px;
@@ -28,16 +29,19 @@
   transform: translateX(10px);
   transition: all 0.4s;
 }
+
 .imgboxs {
   overflow: hidden;
   border-radius: 5%;
 }
+
 .imgbox {
   position: relative;
   border-radius: 5%;
   transform: scale(1);
   transition: all 0.4s;
 }
+
 .imgbox .imgbox_about {
   position: absolute;
   left: 0;
@@ -50,26 +54,46 @@
   color: aliceblue;
   border-radius: 5%;
 }
+
 .imgbox .imgbox_about:hover {
   opacity: 1;
 }
+
 .a {
   margin: 50px 0;
   font-size: 24px;
   text-align: center;
 }
+
 .container .imgbox:hover {
   transform: scale(1.1);
   transition: all 0.4s;
 }
+
 @media screen and (max-width: 750px) {
-  .up,
-  .down {
-    display: block;
+  .box_top,
+  .box_bottom {
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5%;
   }
-  .up img,
-  .down img {
-    display: block;
-    margin: auto;
+  
+  .imgbox {
+    margin-bottom: 40px;
+    flex-direction: column;
+    display: inline-flex;
+    border-radius: 5%;
+  }
+  
+  .next {
+    font-size: 45px;
+    position: relative;
+    left: 90%;
+    bottom: 120%;
+  }
+  
+  .imgboxs {
+    display: inline-flex;
+    margin: 0 auto;
   }
 }
