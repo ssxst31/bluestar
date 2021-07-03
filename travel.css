@@ -71,3 +71,20 @@
   transform: translateX(-10px);
   transition: all 0.4s;
 }
+
+@media (max-width: 600px) {
+  .container .photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+  }
+  
+  .container .photo .jeju_1,
+  .container .photo .jeju_2,
+  .container .photo .jeju_3 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+}
