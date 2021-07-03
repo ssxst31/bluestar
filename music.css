@@ -69,6 +69,24 @@ body {
   }
   .play_btn {
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
+  }
+  .container .music img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5rem;
+  }
+  .container {
+    margin: 20px;
+  }
+  .file {
+    font-family: "Cafe24Ssurround";
+    font-size: 10px;
+  }
+  .next {
+    font-size: 45px;
+    position: relative;
+    left: 87%;
+    bottom: 49%;
   }
 }
