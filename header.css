@@ -66,25 +66,25 @@ a {
 
 .header .header_icons .instagram a,
 .header_icons .facebook a {
-  width: 24px;
-  height: 24px;
-  background-size: 24px;
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
   display: inline-block;
 }
 
 .header .header_icons .instagram a {
   background-image: url(instagram.png);
-  border-radius: 7px;
+  border-radius: 14px;
 }
 
 .header_icons .instagram a:hover {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .header_icons .facebook a {
   background-image: url(facebook.png);
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .header_icons .facebook a:hover {
