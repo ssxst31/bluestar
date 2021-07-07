@@ -47,7 +47,7 @@
                 let imgSrc = document.targetImg;
                 function mimoChange() {
                 let seletImg = Math.floor(Math.random() * ageArr.length)
-                if (imgSrc.src.slice(229,) == ageArr[seletImg]){ // 중복제거
+                if (imgSrc.src.slice(26,) == ageArr[seletImg]){ // 중복제거
                     ageArr.splice(seletImg,1)
                     let newseletImg = Math.floor(Math.random() * ageArr.length)
                     imgSrc.src = ageArr[newseletImg]
